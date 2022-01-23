@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Зоя](https://up.htmlacademy.ru/htmlcss/33/user/251297).
-* Наставник: `Неизвестно`.
+* Наставник: [Оксана](https://htmlacademy.ru/profile/oksana).
 
 ---
 
