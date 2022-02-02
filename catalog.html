@@ -3,6 +3,7 @@
 
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Academy: Девайс - Каталог</title>
   </head>
 
@@ -10,13 +11,13 @@
     
     <header class="main-header">
 
-      <a href="index.html" class="main-header-logo"><img src="#" alt="Лого магазина «Девайс»"></a>
+      <a href="index.html" class="main-header-logo"><img src="http://placehold.it/50x50" alt="Лого магазина «Девайс»"></a>
 
       <div class="button-panel">
 
-        <form action="https://echo.htmlacademy.ru/" method="post" class="search-form">
-          <input type="text" name="search-term" placeholder="Текст поиска" class="search-input">
-          <button class="search-button">Найти</button>
+        <form action="https://echo.htmlacademy.ru/" method="post" class="search-form" name="site-search-from">
+          <input type="text" name="search-term" placeholder="Текст поиска" required class="search-input">
+          <button type="submit" class="search-button">Найти</button>
         </form>
 
         <nav class="user-navigation">
@@ -49,7 +50,7 @@
 
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
-            <a href="#" class="breadcrumbs-link">Главная</a>
+            <a href="index.html" class="breadcrumbs-link">Главная</a>
           </li>
           <li class="breadcrumbs-item">
             <a href="#" class="breadcrumbs-link">Каталог товаров</a>
@@ -119,7 +120,7 @@
 
           </fieldset>
 
-          <button class="line-through">Показать</button>
+          <button type="submit" class="button-line-through">Показать</button>
 
         </form>
 
@@ -134,9 +135,9 @@
             <option value="expensive">Подороже</option>
           </select>
 
-          <button class="sort-up"><span class="visually-hidden">Отсортировать по возрастанию цены</span></button>
+          <a href="#" class="button-up"><span class="visually-hidden">Предыдущая страница с товарами</span></a>
 
-          <button class="sort-down"><span class="visually-hidden">Отсортировать по убыванию цены</span></button>
+          <a href="#" class="button-down"><span class="visually-hidden">Следующая страница с товарами</span></a>
 
         </section>
 
@@ -144,7 +145,7 @@
 
           <div class="product-card">
             <a href="#" class="product-card-link">
-              <img src="" alt="Легкая черная селфи-палка" class="product-card-image">
+              <img src="http://placehold.it/50x50" alt="Легкая черная селфи-палка" class="product-card-image">
               <h4 class="product-card-name">Любительскаяселфи-палка</h4>
               <b class="product-card-price">500 ₽</b>
             </a>
@@ -152,7 +153,7 @@
 
           <div class="product-card">
             <a href="#" class="product-card-link">
-              <img src="" alt="Тяжелая черная селфи-палка" class="product-card-image">
+              <img src="http://placehold.it/50x50" alt="Тяжелая черная селфи-палка" class="product-card-image">
               <h4 class="product-card-name">Профессиональная селфи-палка</h4>
               <b class="product-card-price">1500 ₽</b>
             </a>
@@ -160,7 +161,7 @@
 
           <div class="product-card">
             <a href="#" class="product-card-link">
-              <img src="" alt="Селфи-палка, оборудованная поплавком" class="product-card-image">
+              <img src="http://placehold.it/50x50" alt="Селфи-палка, оборудованная поплавком" class="product-card-image">
               <h4 class="product-card-name">Непотопляемая селфи-палка</h4>
               <b class="product-card-price">2500 ₽</b>
             </a>
@@ -168,7 +169,7 @@
 
           <div class="product-card">
             <a href="#" class="product-card-link">
-              <img src="" alt="Селфи-палка, прикрепленная к муляжу руки" class="product-card-image">
+              <img src="http://placehold.it/50x50" alt="Селфи-палка, прикрепленная к муляжу руки" class="product-card-image">
               <h4 class="product-card-name">Селфи-палка «Следуй за мной»</h4>
               <b class="product-card-price">1500 ₽</b>
             </a>
@@ -178,9 +179,9 @@
 
         <footer class="catalog-products-footer">
 
-          <button class="button-show-more">Загрузить ещё</button>
+          <a href="#" class="button-show-more">Загрузить ещё</a>
 
-          <section class="pagination">
+          <div class="pagination">
 
             <a href="#" class="pagination-link-big">Назад</a>
 
@@ -194,7 +195,7 @@
 
             <a href="#" class="pagination-link-big">Вперёд</a>
             
-          </section>
+          </div>
 
         </footer>
 
@@ -205,14 +206,14 @@
 
     <footer class="main-footer">
 
-      <div class="footer-first-block">
+      <div class="footer-left-block">
 
-        <a href="index.html" class="main-footer-logo"><img src="#" alt="Лого магазина «Девайс»"></a>
+        <a href="index.html" class="main-footer-logo"><img src="http://placehold.it/50x50" alt="Лого магазина «Девайс»"></a>
         <p class="footer-address">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
 
       </div>
 
-      <div class="footer-second-block">
+      <div class="footer-middle-block">
 
         <nav class="footer-navigation">
           <ul class="navigation-list">
@@ -242,10 +243,10 @@
 
       </div>
 
-      <div class="footer-third-block">
+      <div class="footer-right-block">
 
         <a href="tel:88128121212" class="footer-tel">+7 (812) 812-12-12</a>
-        <a href="https://www.htmlacademy.ru" class="html-academy-logo"><img src="" alt="HTML Academy"></a> 
+        <a href="https://www.htmlacademy.ru" target="_blank" rel="noopener noreferrer" class="html-academy-logo"><img src="http://placehold.it/50x50" alt="HTML Academy"></a> 
                
       </div>
 
